@@ -31,14 +31,17 @@
   // ════════════════════════════════════════════
   //  FIREBASE CONFIG — GANTI DENGAN CONFIG ANDA
   // ════════════════════════════════════════════
-  const firebaseConfig = {
-    apiKey: "GANTI_DENGAN_API_KEY_ANDA",
-    authDomain: "GANTI_DENGAN_PROJECT_ID.firebaseapp.com",
-    projectId: "GANTI_DENGAN_PROJECT_ID",
-    storageBucket: "GANTI_DENGAN_PROJECT_ID.appspot.com",
-    messagingSenderId: "GANTI_DENGAN_SENDER_ID",
-    appId: "GANTI_DENGAN_APP_ID"
-  };
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBnI0xpTjetsLhA9eKHcPN8g8qcxDJVXPU",
+  authDomain: "radwaste-kn.firebaseapp.com",
+  databaseURL: "https://radwaste-kn-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "radwaste-kn",
+  storageBucket: "radwaste-kn.firebasestorage.app",
+  messagingSenderId: "250512919175",
+  appId: "1:250512919175:web:39393f4050df6abb93c622",
+  measurementId: "G-9WNSFPH1CW"
+};
 
   const app  = initializeApp(firebaseConfig);
   const db   = getFirestore(app);
